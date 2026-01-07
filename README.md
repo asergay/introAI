@@ -13,3 +13,14 @@ docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
 The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
 
 Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
+
+aiofiles==0.4.0
+aiohttp==3.5.4
+asyncio==3.4.3
+fastai==1.0.52
+https://download.pytorch.org/whl/cpu/torch-1.1.0-cp37-cp37m-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp37-cp37m-linux_x86_64.whl
+numpy==1.16.3
+starlette==0.12.0
+uvicorn==0.11.7
+python-multipart==0.0.5
